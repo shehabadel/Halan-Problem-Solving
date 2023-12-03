@@ -1,9 +1,4 @@
-class Node {
-  constructor(value, children = []) {
-    this.value = value;
-    this.children = children;
-  }
-}
+const Node = require("./Node");
 /**
    * @description Problem 09
    * Given the below tree structure, write a function sum that accepts a node and returns the

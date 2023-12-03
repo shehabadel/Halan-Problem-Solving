@@ -1,4 +1,5 @@
-const { sum, Node } = require("./Q9");
+const { sum } = require("./Q9");
+const Node = require("./Node");
 describe("Problem 9 - tests", () => {
   test("Should return 7", () => {
     expect(
